@@ -33,7 +33,7 @@ First City +++++++++++++++++++++++++++++++++++++++++
 Second City ++++++++++++++++++++++++++++++++++++++++
 ![Second_City](assets/images/second_city.png)
 
-Favicon ++++++++++++++++++++++++++++++++++++++++++++
+Favicon +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ![Lion_Favicon](assets/images/lion_favicon.png)
 
 ## License
