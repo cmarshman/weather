@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/lion_favicon.png"/>
+</head>
+
+<body>
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Weather Dashboard
+                </h1>
+            </div>
+        </div>
+    </section>
+    <div class="tile is-parent">
+        <article class="tile is-child notification is-primary">
+            <div class="content">
+                <br>
+                <p class="title">Search for a City</p>
+                <div class="content">
+                    <label class="label">City Name</label>
+                    <div class="control">
+                        <input class="input search-color" type="text" placeholder="City" id="inputCity">
+                    </div>
+                    <br>
+                    <div class="control">
+                        <button id="submitButton" class="button is-dark">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <br>
+    <div class="tile is-parent is-12">
+        <article class="tile is-child box">
+            <div class="content" id="cityInfo">
+            </div>
+        </article>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/desgin/script.js"></script>
+</body>
+
+</html>
